@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_instagram_example/src/ui/search/search_focus_view.dart';
 import 'package:flutter_instagram_example/src/ui/utils/animation_route.dart';
-import 'package:flutter_instagram_example/src/widget/image_data.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class SearchView extends StatefulWidget {

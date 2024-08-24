@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_instagram_example/src/ui/app/app_view_model.dart';
 import 'package:flutter_instagram_example/src/ui/home/home_view.dart';
+import 'package:flutter_instagram_example/src/ui/mypage/my_page_view.dart';
 import 'package:flutter_instagram_example/src/ui/search/search_view.dart';
 import 'package:flutter_instagram_example/src/widget/image_avatar.dart';
 import 'package:flutter_instagram_example/src/widget/image_data.dart';
@@ -42,12 +43,7 @@ class App extends StatelessWidget {
             Container(
               color: Colors.yellow,
             ),
-            Container(
-              color: Colors.green,
-            ),
-            Container(
-              color: Colors.black,
-            ),
+            MyPageView(),
           ],
         );
       });
